@@ -9,9 +9,9 @@ import (
 
 func init() {
 	RegisterInit(func(sd *streamdeck.Client, ls *livesplit.Client) {
-		action := sd.Action(ActionName("starttimer"))
+		action := sd.Action(ActionName("togglelayout"))
 		action.RegisterHandler(streamdeck.KeyDown, func(ctx context.Context, client *streamdeck.Client, event streamdeck.Event) error {
-			return ls.StartTimer()
+			return ls.ToggleLayout()
 		})
 	})
 }

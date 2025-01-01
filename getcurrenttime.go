@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/samwho/livesplit"
+	"github.com/kerrymilan/livesplit"
 	"github.com/samwho/streamdeck"
 )
 

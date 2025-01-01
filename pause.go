@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/samwho/livesplit"
+	"github.com/kerrymilan/livesplit"
 	"github.com/samwho/streamdeck"
 )
 

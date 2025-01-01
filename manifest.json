@@ -117,6 +117,18 @@
         "TitleAlignment": "middle",
         "FontSize": "11"
       }]
+    },
+    {
+      "Name": "Toggle Layout",
+      "Icon": "images/livesplit",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.togglelayout",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Toggle Layout",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
     }
   ],
   "SDKVersion": 2,

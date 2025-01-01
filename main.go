@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/samwho/livesplit"
+	"github.com/kerrymilan/livesplit"
 	"github.com/samwho/streamdeck"
 )
 
